@@ -1,0 +1,87 @@
+{
+  "name": "help",
+  "permissions": "NONE",
+  "restriction": "0",
+  "_id": "BJwya",
+  "actions": [
+    {
+      "storage": "1",
+      "varName": "hex",
+      "name": "Generate Random Hex Color"
+    },
+    {
+      "info": "19",
+      "storage": "1",
+      "varName2": "prefix",
+      "name": "Store Bot Client Info"
+    },
+    {
+      "title": "!help",
+      "author": "",
+      "color": "${tempVars(\"hex\")}",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/samsung/220/clipboard_1f4cb.png",
+      "timestamp": "true",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "embed",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "embed",
+      "fieldName": "${tempVars(\"prefix\")}help",
+      "message": "Affiche cette page",
+      "inline": "1",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "embed",
+      "fieldName": "${tempVars(\"prefix\")}ping",
+      "message": "Affiche les ms du bot",
+      "inline": "1",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "embed",
+      "fieldName": "${tempVars(\"prefix\")}avatar",
+      "message": "Affiche l'avatar du membre mentionnée",
+      "inline": "1",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "embed",
+      "message": "Crée par ZipName",
+      "footerIcon": "",
+      "name": "Set Embed Footer"
+    },
+    {
+      "storage": "1",
+      "varName": "embed",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "messageContent": "",
+      "name": "Send Embed Message"
+    }
+  ],
+  "_aliases": [
+    "Help"
+  ]
+}
