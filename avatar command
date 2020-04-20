@@ -1,0 +1,92 @@
+{
+  "name": "avatar",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "wmKJL",
+  "actions": [
+    {
+      "member": "0",
+      "varName": "",
+      "info": "12",
+      "storage": "1",
+      "varName2": "avatarurl",
+      "name": "Store Member Info"
+    },
+    {
+      "member": "1",
+      "varName": "",
+      "info": "12",
+      "storage": "1",
+      "varName2": "authoravatarurl",
+      "name": "Store Member Info"
+    },
+    {
+      "member": "0",
+      "varName": "",
+      "info": "2",
+      "storage": "1",
+      "varName2": "username",
+      "name": "Store Member Info"
+    },
+    {
+      "member": "1",
+      "varName": "",
+      "info": "2",
+      "storage": "1",
+      "varName2": "authorusername",
+      "name": "Store Member Info"
+    },
+    {
+      "storage": "1",
+      "varName": "hex",
+      "name": "Generate Random Hex Color"
+    },
+    {
+      "title": "Photo de profil de ${tempVars(\"username\")}",
+      "author": "",
+      "color": "${tempVars(\"hex\")}",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "${tempVars(\"avatarurl\")}",
+      "thumbUrl": "",
+      "timestamp": "true",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "embed",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "embed",
+      "message": "Crée par ZipName",
+      "footerIcon": "",
+      "name": "Set Embed Footer"
+    },
+    {
+      "storage": "1",
+      "varName": "embed",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "messageContent": "",
+      "name": "Send Embed Message"
+    }
+  ],
+  "_aliases": [
+    "pp",
+    "Pp",
+    "pP",
+    "Avatar"
+  ]
+}
