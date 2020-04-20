@@ -1,0 +1,35 @@
+{
+  "name": "ping",
+  "permissions": "NONE",
+  "restriction": "0",
+  "_id": "URLPe",
+  "actions": [
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "pong !",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "info": "2",
+      "storage": "1",
+      "varName2": "ping",
+      "name": "Store Bot Client Info"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "Le bot a mis ${tempVars(\"ping\")}ms à répondre",
+      "storage": "0",
+      "varName2": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Message"
+    }
+  ],
+  "_aliases": [
+    "Ping"
+  ]
+}
